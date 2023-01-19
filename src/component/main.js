@@ -12,9 +12,11 @@ export default function Main () {
                 <div className="text-xl font-medium mb-6">
                     <p>Ignite your content and let the audience fan your creations</p>
                 </div>
-                <div className='mb-6'>
-                    <button className='text-white text-xl font-bold p-3 rounded-xl bg-gradient-to-r from-red-500 to-yellow-400 hover:scale-110'>Get Started</button> 
+                <div className='mb-6 flex space-between' >
+                    <button className='text-white text-xl font-bold p-3 rounded-xl bg-gradient-to-r from-red-500 to-yellow-400 hover:scale-110'>Lector</button> 
+                    <button className='text-white text-xl font-bold p-3 rounded-xl bg-gradient-to-r from-red-500 to-yellow-400 hover:scale-110'>Creador de contenido</button> 
                 </div>
+                
                 <div className='mb-6'>
                     <div className='flex'>
                         <img className="h-6 mr-2 mb-2" src={check} alt="check icon"/>
